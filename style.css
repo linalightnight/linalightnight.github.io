@@ -3,8 +3,8 @@ body {
    margin: 0;
 }
 .photo img {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border: 8px solid #fff;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
 }
@@ -14,9 +14,9 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 35% 75%;
+  grid-template-columns: 37% 73%;
   grid-template-rows: repeat (5, 1fr);
-  width: 800px;
+  width: 850px;
   gap: 20px;
   padding: 20px;
   font-family: Merriweather, serif;
@@ -98,7 +98,7 @@ li {
   gap: 5px;
 }
 
-.card, .card2, .card3, .card4, .card5, .contact, .language, .skills, .social-media, .about, .education, .experience {
+.card, .card2, .card3, .card4, .card5, .contact, .language, .skills, .social-media, .about, .education, .experience, .portfolio, .description, .scrin {
   border: 1px solid rgb(238, 238, 238);
   background: white;
   border-radius: 20px;
@@ -106,3 +106,5 @@ li {
   gap: 3px;
   margin: 10px;
 }
+
+
