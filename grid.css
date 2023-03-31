@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito+Sans&display=swap');
 
 body {
     background: rgb(248, 250, 251);
     margin: 0;
-    font-family: 'Merriweather', serif;
+    font-family: 'Nunito Sans', sans-serif;
     width: auto;
 }
 
@@ -11,11 +11,11 @@ body {
     width: 100%;
     gap: 20px;
     padding: 20px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Nunito Sans', sans-serif;
     margin: 0 auto;
     display: grid;
     /* border: 2px black solid; */
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* grid-gap: 2vw; */
 }
@@ -36,11 +36,6 @@ body {
 .item:hover {
     transform: scale(1.1);
 }
-
-
-/* .round {
-    border-radius: 5%;
-  } */
 
 .item {
     max-width: 350px;
@@ -127,10 +122,24 @@ h4 {
 }
 
 .about {
-border: 1px solid rgb(238, 238, 238);
-  background: white;
-  border-radius: 20px;
-  padding: 10px;
-  gap: 3px;
-  margin: 10px;
+    border: 1px solid rgb(238, 238, 238);
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+
+
+.two-columns {
+    display: grid;
+    grid-template: 100% / 35% 65%;
+    gap: 3px;
+}
+
+li {
+    list-style-type: square;
 }

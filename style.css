@@ -1,13 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito+Sans&display=swap');
+
 body {
-   background: rgb(248, 250, 251);
-   margin: 0;
+  background: rgb(248, 250, 251);
+  margin: 0;
 }
+
 .photo img {
   width: 220px;
   height: 220px;
   border: 8px solid #fff;
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
+
 .round {
   border-radius: 10%;
 }
@@ -20,9 +25,13 @@ main {
   width: 850px;
   gap: 20px;
   padding: 20px;
-  font-family: Merriweather, serif;
+  /* font-family: 'Comfortaa', cursive; */
+  /* font-family: Merriweather, serif; */
+  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   margin: 0 auto;
- 
+
 }
 
 .item1 {
@@ -30,12 +39,14 @@ main {
   margin: 5px;
   padding: 25px;
 }
+
 h1 {
   color: #424242;
   font-size: 30px;
   letter-spacing: 1px;
   margin-bottom: 25px;
 }
+
 h2 {
   color: #424242;
   letter-spacing: 2px;
@@ -60,6 +71,7 @@ h2:after {
   bottom: 9px;
   z-index: -1;
 }
+
 h3 {
   font-size: 18px;
   color: #424242;
@@ -70,12 +82,6 @@ h3 {
 .social-media svg {
   margin: 0 auto 5px;
 }
-
-/* .social-media {
-  display: block;  
- left: auto;
- right: auto;
-} */
 
 li {
   list-style-type: square;
@@ -89,14 +95,14 @@ li {
   line-height: 13px;
   font-size: 13px;
   font-weight: 600;
-  color: rgb(51,51,51);
+  color: rgb(51, 51, 51);
   margin: 0 0 10px 0;
 }
 
 .three-columns {
   display: grid;
   grid-template: auto / 33% 33% 33%;
-  gap: 10px;
+  gap: 5px;
 }
 
 .two-columns {
@@ -105,13 +111,38 @@ li {
   gap: 5px;
 }
 
-.card, .card2, .card3, .card4, .card5, .contact, .language, .skills, .social-media, .about, .education, .experience, .portfolio, .description, .scrin {
+.social-media {
+  text-align: center;
+}
+
+.item {
   border: 1px solid rgb(238, 238, 238);
   background: white;
   border-radius: 20px;
   padding: 10px;
-  gap: 3px;
-  margin: 10px;
+  /* gap: 3px; */
+  margin: 5px;
 }
 
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  /* color: rgb(95, 111, 129); */
+}
 
+a:hover {
+  /* color: rgb(75, 85, 94); */
+  color: rgb(51, 51, 51);
+  text-decoration: underline;
+}
+
+.language {
+  width: max-content;
+  margin: 15px 0 0 85%;
+}
+
+.content {
+  text-align: justify;
+}
