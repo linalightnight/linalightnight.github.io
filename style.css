@@ -79,6 +79,13 @@ h3 {
   letter-spacing: 2px;
 }
 
+h4 {
+  font-size: 15px;
+  color: #424242;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
 .social-media svg {
   margin: 0 auto 5px;
 }
@@ -124,11 +131,13 @@ li {
   margin: 5px;
 }
 
+
 a:active,
 a:link,
 a:visited {
   text-decoration: none;
-  color: rgb(51, 51, 51);
+  color: #4db6acc3;
+  /* color: rgb(51, 51, 51); */
   /* color: rgb(95, 111, 129); */
 }
 
@@ -146,3 +155,7 @@ a:hover {
 .content {
   text-align: justify;
 }
+
+/* p {
+  text-align: justify;
+} */

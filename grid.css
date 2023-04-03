@@ -53,6 +53,7 @@ a:active,
 a:link,
 a:visited {
     text-decoration: none;
+    /* color: #4db6acc3; */
     color: rgb(95, 111, 129);
 }
 
