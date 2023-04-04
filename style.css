@@ -8,7 +8,7 @@ body {
 
 .photo img {
   width: 220px;
-  height: 220px;
+  /* height: 220px; */
   border: 8px solid #fff;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
